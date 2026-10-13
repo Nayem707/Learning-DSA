@@ -188,31 +188,30 @@
 //     return 0;
 // }
 
+// struct User {
+//     int age;
+//     double price;
+//     string name;
+//     bool isDeveloper;
+//     char grade;
+//     float pi;
+// };
+
+// int main() {
+
+//     User user1 = {25, 99.5, "Nayem", true, 'A', 3.14159f};
+//     User user2 = {22, 59.5, "Islamy", true, 'B', 4.14159f};
+
+//     cout << "User 1: " << endl;
+//     cout << "Name: " << user1.name << endl;
+//     cout << "Age: " << user1.age << endl;
+
+//     cout << "User 2: " << endl;
+//     cout << "Name: " << user2.name << endl;
+//     cout << "Age: " << user2.age << endl;
+
+//     return 0;
+// }
+
 #include <iostream>
 using namespace std;
-
-
-struct User {
-    int age;
-    double price;
-    string name;
-    bool isDeveloper;
-    char grade;
-    float pi;
-};
-
-int main() {
-
-    User user1 = {25, 99.5, "Nayem", true, 'A', 3.14159f};
-    User user2 = {22, 59.5, "Islamy", true, 'B', 4.14159f};
-
-    cout << "User 1: " << endl;
-    cout << "Name: " << user1.name << endl;
-    cout << "Age: " << user1.age << endl;
-
-    cout << "User 2: " << endl;
-    cout << "Name: " << user2.name << endl;
-    cout << "Age: " << user2.age << endl;
-
-    return 0;
-}
